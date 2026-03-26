@@ -1,0 +1,7 @@
+{
+  "buildCommand": "pnpm --filter @workspace/artist-booking run build",
+  "outputDirectory": "artifacts/artist-booking/dist/public",
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/index.html" }
+  ]
+}
